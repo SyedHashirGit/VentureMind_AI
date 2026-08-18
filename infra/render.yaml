@@ -1,0 +1,33 @@
+# Render blueprint for the VentureMind API. Set the `sync: false` vars in the dashboard.
+services:
+  - type: web
+    name: venturemind-api
+    runtime: docker
+    rootDir: apps/api
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MAX_RPM
+        value: "12"
+      - key: BREETH_API_KEY
+        sync: false
+      - key: FIREBASE_DB_URL
+        sync: false
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON   # paste the full service-account JSON
+        sync: false
+      - key: CORS_ORIGINS                     # e.g. ["https://venturemind.vercel.app"]
+        sync: false
+      - key: CORS_ORIGIN_REGEX                # optional, e.g. https://.*\.vercel\.app
+        sync: false
+      - key: VALKEY_HOST
+        sync: false
+      - key: VALKEY_PORT
+        value: "6379"
+      - key: VALKEY_USE_TLS
+        value: "false"
+      - key: VALKEY_PASSWORD
+        sync: false

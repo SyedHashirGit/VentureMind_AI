@@ -1,0 +1,23 @@
+# Local Valkey for development and demo day.
+# valkey-bundle ships Valkey + valkey-search (vector/FT.* commands), json, and bloom, preloaded.
+services:
+  valkey:
+    image: valkey/valkey-bundle:latest
+    container_name: venturemind-valkey
+    ports:
+      - "6379:6379"
+    volumes:
+      - valkey-data:/data
+    # IMPORTANT: do NOT override `command` here. The bundle's default command is what loads
+    # the modules (including valkey-search); replacing it would silently disable vector search.
+    # Add persistence flags via VALKEY_EXTRA_FLAGS instead, which keeps the modules loaded.
+    environment:
+      VALKEY_EXTRA_FLAGS: "--save 60 1 --appendonly yes"
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  valkey-data:

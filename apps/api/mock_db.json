@@ -1,0 +1,879 @@
+{
+  "users": {
+    "mock-user-123": {
+      "displayName": "Mock User",
+      "email": "mock@example.com",
+      "photoURL": null,
+      "plan": "free",
+      "createdAt": 1781983979.821564,
+      "lastActiveAt": 1782022198.0562208
+    },
+    "123": {
+      "displayName": "Founder",
+      "email": null,
+      "photoURL": null,
+      "plan": "free",
+      "createdAt": 1781985928.961218,
+      "lastActiveAt": 1781985928.961218
+    },
+    "VXSpTtJlTHdIW0KG5PCBRunBs6x2": {
+      "displayName": "Syed Hashir",
+      "email": "sdhashired@gmail.com",
+      "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocKR6ib2oGjNnfWy-Rk7mjoJMfy0CJeHsMNZZHI0xTLMjgWGPbE=s96-c",
+      "plan": "free",
+      "createdAt": 1781986343.0040622,
+      "lastActiveAt": 1781986343.0040622
+    },
+    "ysA0eB9bwXgpM42V6Bsk2lewkFJ2": {
+      "displayName": "Syed Dilawar Hashir",
+      "email": "sdhashir@gmail.com",
+      "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocKPItfRTmb9vHnGxKricYXGjZDieeHeUwX89XJCmQ_UmywP0EBuGw=s96-c",
+      "plan": "free",
+      "createdAt": 1781986453.484662,
+      "lastActiveAt": 1782020725.6473238
+    }
+  },
+  "workspaces": {
+    "884ae57b0f264b13": {
+      "ownerUid": "mock-user-123",
+      "title": "AI Fitness Platform",
+      "ideaPrompt": "I want to build an AI fitness platform for college students.",
+      "industry": null,
+      "stage": null,
+      "status": "analyzing",
+      "createdAt": 1781985341.4204836,
+      "updatedAt": 1781985341.4204836,
+      "scores": {
+        "viability": 0,
+        "marketOpportunity": 0,
+        "executionDifficulty": 0,
+        "fundingAttractiveness": 0
+      },
+      "boardroom": {
+        "5c9c1866c7894bc6": {
+          "agent": "ceo",
+          "role": "analysis",
+          "content": {
+            "summary": "CEO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1781985371.1981037
+        },
+        "d9460ef9cc46416b": {
+          "agent": "cto",
+          "role": "analysis",
+          "content": {
+            "summary": "CTO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1781985376.6969874
+        },
+        "c352cbd859644619": {
+          "agent": "pm",
+          "role": "analysis",
+          "content": {
+            "summary": "Product Manager could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1781985423.242982
+        },
+        "f14111efc9534467": {
+          "agent": "ceo",
+          "role": "analysis",
+          "content": {
+            "summary": "CEO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1781985425.4471424
+        },
+        "34796fa9c40c4430": {
+          "agent": "investor",
+          "role": "analysis",
+          "content": {
+            "summary": "Investor could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1781985428.1058612
+        }
+      }
+    },
+    "3beb0b8256d74f10": {
+      "ownerUid": "ysA0eB9bwXgpM42V6Bsk2lewkFJ2",
+      "title": "Fitness AI",
+      "ideaPrompt": "i want to build a fitness AI platform",
+      "industry": null,
+      "stage": null,
+      "status": "complete",
+      "createdAt": 1782020929.1359196,
+      "updatedAt": 1782020929.1359196,
+      "scores": {
+        "viability": 0,
+        "marketOpportunity": 0,
+        "executionDifficulty": 0,
+        "fundingAttractiveness": 0
+      },
+      "boardroom": {
+        "839b3053ed2543b2": {
+          "agent": "ceo",
+          "role": "analysis",
+          "content": {
+            "summary": "CEO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782020955.5974772
+        },
+        "f52a5619b82e4c84": {
+          "agent": "ceo",
+          "role": "analysis",
+          "content": {
+            "summary": "CEO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021000.4887953
+        },
+        "c9cca6067c394282": {
+          "agent": "cto",
+          "role": "analysis",
+          "content": {
+            "summary": "CTO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021003.4252923
+        },
+        "77c19749e0b7415f": {
+          "agent": "cto",
+          "role": "analysis",
+          "content": {
+            "summary": "CTO could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021005.4104362
+        },
+        "483b7e8d45e14ef8": {
+          "agent": "pm",
+          "role": "analysis",
+          "content": {
+            "summary": "Product Manager could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021008.554357
+        },
+        "edf000d3ff694d4d": {
+          "agent": "pm",
+          "role": "analysis",
+          "content": {
+            "summary": "Product Manager could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021060.754399
+        },
+        "41599ebd56ed466f": {
+          "agent": "investor",
+          "role": "analysis",
+          "content": {
+            "summary": "Investor could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021063.3011131
+        },
+        "ac02fe2a0e03430e": {
+          "agent": "investor",
+          "role": "analysis",
+          "content": {
+            "summary": "Investor could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021065.8538954
+        },
+        "7dfb60dca6104346": {
+          "agent": "marketing",
+          "role": "analysis",
+          "content": {
+            "summary": "Marketing Lead could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021067.8877513
+        },
+        "dcc2dc7eaa4646f4": {
+          "agent": "marketing",
+          "role": "analysis",
+          "content": {
+            "summary": "Marketing Lead could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021120.551752
+        },
+        "2fbb0fbf6f274ef6": {
+          "agent": "competitor",
+          "role": "analysis",
+          "content": {
+            "summary": "Competitor Analyst could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021123.3346953
+        },
+        "0110ae09b5274744": {
+          "agent": "competitor",
+          "role": "analysis",
+          "content": {
+            "summary": "Competitor Analyst could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021125.3803039
+        },
+        "6fab5852f6cb428d": {
+          "agent": "legal",
+          "role": "analysis",
+          "content": {
+            "summary": "Legal Advisor could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021127.728861
+        },
+        "390890d9bffd4973": {
+          "agent": "legal",
+          "role": "analysis",
+          "content": {
+            "summary": "Legal Advisor could not complete analysis right now.",
+            "key_points": [],
+            "risks": [],
+            "recommendations": [],
+            "confidence": 0,
+            "role_output": {}
+          },
+          "ts": 1782021181.1902428
+        }
+      }
+    },
+    "b3f53353cf444d22": {
+      "ownerUid": "mock-user-123",
+      "title": "Test Idea",
+      "ideaPrompt": "AI fitness app for college students",
+      "industry": null,
+      "stage": null,
+      "status": "complete",
+      "createdAt": 1782022209.3247976,
+      "updatedAt": 1782022209.3247976,
+      "scores": {
+        "viability": 55,
+        "marketOpportunity": 60,
+        "executionDifficulty": 75,
+        "fundingAttractiveness": 50
+      },
+      "analyses": {
+        "2ea74c80443b45aa": {
+          "type": "validation",
+          "payload": {
+            "viability": {
+              "score": 55,
+              "rationale": "While a clear need for fitness support exists among college students, converting this into a sustainable, paying user base for an AI app is difficult due to budget constraints and abundant free alternatives."
+            },
+            "market_opportunity": {
+              "score": 60,
+              "rationale": "Targeting college students offers a large, identifiable demographic with clear wellness needs. However, the market for fitness apps is highly saturated, requiring significant differentiation and a compelling value proposition to capture attention and retention."
+            },
+            "execution_difficulty": {
+              "score": 75,
+              "rationale": "Building a genuinely intelligent and adaptive AI fitness coach that provides highly personalized plans, tracks progress effectively, and maintains user engagement is a complex technical and content development challenge, demanding significant resources and expertise."
+            },
+            "funding_attractiveness": {
+              "score": 50,
+              "rationale": "While AI is a current investment trend, the highly competitive fitness app market and the price sensitivity of the college student demographic will make it challenging to demonstrate a clear path to profitability and scalability, potentially deterring early-stage investors."
+            },
+            "market_size": "Large: Millions of college students globally, representing a substantial addressable market.",
+            "demand": "Moderate: There is a general desire for fitness and wellness support among students, but demand for a *paid* AI-specific solution is unproven and likely highly price-sensitive given numerous free options.",
+            "competition": "Very High: The market is saturated with established general fitness apps (e.g., MyFitnessPal, Nike Training Club, Strava), specialized workout apps, free YouTube content, and university gym facilities, many offering freemium models.",
+            "feasibility": "Technically feasible to develop an AI fitness app, but achieving true personalization, user engagement, and differentiation in a crowded market presents significant operational and strategic challenges.",
+            "risks": [
+              "Low student willingness to pay for subscriptions.",
+              "High user churn due to fluctuating academic schedules and priorities.",
+              "Difficulty in delivering truly superior AI personalization compared to existing solutions.",
+              "Intense competition from established, well-funded players and free alternatives.",
+              "Data privacy concerns when handling personal health information."
+            ],
+            "verdict": "This idea faces significant hurdles in differentiating itself and establishing a viable monetization model within the highly competitive and price-sensitive college student fitness market."
+          },
+          "model": "gemini",
+          "cacheHit": false,
+          "createdAt": 1782022251.125942
+        }
+      },
+      "boardroom": {
+        "736a42d3160e4950": {
+          "agent": "validation",
+          "role": "verdict",
+          "content": {
+            "viability": {
+              "score": 55,
+              "rationale": "While a clear need for fitness support exists among college students, converting this into a sustainable, paying user base for an AI app is difficult due to budget constraints and abundant free alternatives."
+            },
+            "market_opportunity": {
+              "score": 60,
+              "rationale": "Targeting college students offers a large, identifiable demographic with clear wellness needs. However, the market for fitness apps is highly saturated, requiring significant differentiation and a compelling value proposition to capture attention and retention."
+            },
+            "execution_difficulty": {
+              "score": 75,
+              "rationale": "Building a genuinely intelligent and adaptive AI fitness coach that provides highly personalized plans, tracks progress effectively, and maintains user engagement is a complex technical and content development challenge, demanding significant resources and expertise."
+            },
+            "funding_attractiveness": {
+              "score": 50,
+              "rationale": "While AI is a current investment trend, the highly competitive fitness app market and the price sensitivity of the college student demographic will make it challenging to demonstrate a clear path to profitability and scalability, potentially deterring early-stage investors."
+            },
+            "market_size": "Large: Millions of college students globally, representing a substantial addressable market.",
+            "demand": "Moderate: There is a general desire for fitness and wellness support among students, but demand for a *paid* AI-specific solution is unproven and likely highly price-sensitive given numerous free options.",
+            "competition": "Very High: The market is saturated with established general fitness apps (e.g., MyFitnessPal, Nike Training Club, Strava), specialized workout apps, free YouTube content, and university gym facilities, many offering freemium models.",
+            "feasibility": "Technically feasible to develop an AI fitness app, but achieving true personalization, user engagement, and differentiation in a crowded market presents significant operational and strategic challenges.",
+            "risks": [
+              "Low student willingness to pay for subscriptions.",
+              "High user churn due to fluctuating academic schedules and priorities.",
+              "Difficulty in delivering truly superior AI personalization compared to existing solutions.",
+              "Intense competition from established, well-funded players and free alternatives.",
+              "Data privacy concerns when handling personal health information."
+            ],
+            "verdict": "This idea faces significant hurdles in differentiating itself and establishing a viable monetization model within the highly competitive and price-sensitive college student fitness market."
+          },
+          "ts": 1782022251.1265783
+        },
+        "7cffb038f12a4e10": {
+          "agent": "ceo",
+          "role": "analysis",
+          "content": {
+            "summary": "The concept of an AI fitness app targeting college students presents a clear demographic, but faces significant challenges in a highly competitive and price-sensitive market. The core differentiation lies in AI-driven personalization, which must deliver tangible, superior value to overcome existing free and low-cost alternatives. Monetization and sustained engagement within the transient college environment are critical hurdles.",
+            "key_points": [
+              "Targets a specific demographic (college students) with unique needs regarding flexibility, affordability, and social integration in fitness.",
+              "AI personalization offers a strong potential differentiator against generic fitness solutions, tailoring workouts to busy schedules and varied fitness levels.",
+              "Opportunity for strong community building and virality within campus ecosystems through social features and challenges.",
+              "Potential to integrate with university wellness programs, student health services, or academic calendars to enhance stickiness and distribution.",
+              "Addresses a growing need for accessible mental and physical well-being tools among students facing academic and social pressures."
+            ],
+            "risks": [
+              "High churn rate due to fluctuating student schedules, short-term commitments, and the transient nature of college life.",
+              "Intense competition from free resources (YouTube, social media), generic fitness apps, and campus gym facilities.",
+              "Significant monetization challenges as college students are highly price-sensitive and often have limited disposable income.",
+              "Difficulty in truly differentiating the 'AI' aspect from basic algorithmic recommendations, requiring sophisticated technology to deliver perceived value.",
+              "Data privacy concerns when handling personal health and activity data for a younger demographic, requiring robust security and transparent policies."
+            ],
+            "recommendations": [
+              "Conduct deep ethnographic research to uncover specific pain points, preferred fitness activities, and willingness to pay among diverse college student segments.",
+              "Pilot the app with a select few universities to gather intensive feedback, iterate rapidly, and explore potential institutional partnerships for distribution and revenue.",
+              "Implement a robust freemium model that offers substantial value in the free tier (e.g., basic AI plans, social features) and clearly defined, compelling premium features (e.g., advanced analytics, specialized programs, certified coach access) for monetization.",
+              "Prioritize social and gamification features that leverage campus life, such as group challenges, campus leaderboards, and peer-to-peer workout scheduling, to drive engagement and organic growth.",
+              "Integrate mental well-being components (e.g., stress-relief workouts, mindfulness exercises) alongside physical fitness to offer a holistic wellness solution, resonating more deeply with student needs."
+            ],
+            "confidence": 68,
+            "role_output": {
+              "mission": "To empower college students with hyper-personalized, accessible, and motivating AI-driven fitness and wellness experiences that seamlessly integrate into their academic and social lives.",
+              "vision": "To become the indispensable health and well-being platform for the next generation, leveraging AI to foster lifelong healthy habits and redefine student wellness globally.",
+              "north_star_metric": "Weekly Active Users (WAU) completing at least one AI-guided workout session.",
+              "strategic_priorities": [
+                "Develop a proprietary AI engine that delivers truly hyper-personalized fitness and wellness plans, adapting dynamically to student schedules, preferences, and progress.",
+                "Build robust social and community features that leverage campus dynamics, enabling group challenges, peer support, and university-specific engagement.",
+                "Establish a sustainable monetization strategy through a compelling freemium model and explore strategic partnerships with universities for B2B distribution and wellness program integration.",
+                "Invest in content creation and curation, ensuring a diverse library of workouts, mindfulness exercises, and educational resources tailored for the student demographic.",
+                "Prioritize data privacy and security, building trust with students and institutions while ethically leveraging anonymized data for continuous AI model improvement and user experience enhancement."
+              ]
+            }
+          },
+          "ts": 1782022262.6389377
+        },
+        "f6c6ca78e8554547": {
+          "agent": "cto",
+          "role": "analysis",
+          "content": {
+            "summary": "The proposed AI fitness app targets college students, aiming to provide personalized workout and nutrition plans. The core value proposition lies in leveraging AI to adapt to the unique constraints of this demographic, such as limited time, budget, and access to equipment, while operating in a mobile-first environment.",
+            "key_points": [
+              "Targets a specific, tech-savvy demographic (college students) with distinct lifestyle constraints.",
+              "Leverages AI for personalization, which can be a strong differentiator if executed effectively.",
+              "Mobile-first approach is critical for engagement and accessibility within the target market.",
+              "Opportunity to collect valuable health and fitness data specific to young adults in an academic setting."
+            ],
+            "risks": [
+              "The fitness app market is highly saturated; differentiation beyond 'AI' is crucial to attract and retain college students who have many free or low-cost alternatives.",
+              "Monetization will be challenging given the price sensitivity of college students; a freemium model or creative partnerships might be necessary, impacting revenue generation.",
+              "Ensuring AI accuracy and reliability for health-related recommendations is paramount; errors could lead to user distrust, injury, or legal liabilities.",
+              "Sustaining long-term engagement and preventing churn among college students, who often have fluctuating routines and priorities, will be difficult.",
+              "Handling sensitive personal health data for a young demographic requires robust data privacy and security measures, adding significant complexity and cost."
+            ],
+            "recommendations": [
+              "Develop a Minimum Viable Product (MVP) focused solely on core AI-driven personalized workout and nutrition plans, deferring complex features like real-time form analysis to later stages.",
+              "Explore strategic partnerships with university wellness centers, sports clubs, or student organizations to gain credibility, access, and unique distribution channels.",
+              "Integrate social and gamification features relevant to campus life (e.g., inter-dorm challenges, study-buddy workout groups) to foster community and boost engagement.",
+              "Clearly articulate the specific problems the AI solves for college students (e.g., 'AI that finds effective workouts for small dorm rooms,' 'Budget-friendly meal plans from dining hall options').",
+              "Implement a phased approach to AI complexity, starting with rule-based or simpler machine learning models, and progressively enhancing with more sophisticated algorithms as data and user feedback accumulate."
+            ],
+            "confidence": 70,
+            "role_output": {
+              "architecture": "A mobile-first, cloud-native architecture. The client will be a cross-platform mobile application (React Native/Flutter). The backend will consist of a Python-based API gateway (FastAPI/Flask) running on serverless functions (AWS Lambda) or containers (AWS ECS), interacting with a managed relational database (PostgreSQL via AWS RDS) for structured user data, workout plans, and logs. A separate, scalable microservice (also Python-based) will handle AI/ML inference and model management, potentially leveraging AWS Sagemaker or dedicated Lambda functions for computations. Object storage (AWS S3) will be used for media (e.g., user progress photos, exercise videos). Authentication will be managed via a robust identity service (AWS Cognito). Asynchronous communication and notifications will use AWS SNS/SQS.",
+              "core_stack": [
+                "Mobile: React Native (TypeScript)",
+                "Backend API: Python (FastAPI/Flask)",
+                "Database: PostgreSQL (AWS RDS)",
+                "AI/ML: Python (Scikit-learn, TensorFlow/PyTorch) + AWS Sagemaker/Lambda",
+                "Cloud Platform: AWS (Lambda, ECS, S3, RDS, Cognito, SNS/SQS)"
+              ],
+              "data_model_notes": "Key entities include `Users` (profile, fitness goals, level), `WorkoutPlans` (pre-defined or AI-generated), `Exercises` (instructions, media), `UserWorkouts` (logs of completed activities, sets/reps/weights as JSONB), `NutritionLogs` (daily food intake, macros), and `ProgressTracking` (weight, measurements, photos over time). AI recommendations will require a separate table linking `User` to `RecommendedItems` (workout, meal) with feedback mechanisms. Time-series data for logs and progress tracking will be crucial for AI model training and user insights.",
+              "scalability_risks": [
+                "AI Model Inference Latency: Real-time personalization and complex analysis for a large user base could lead to slow response times if not properly optimized and distributed.",
+                "Data Storage & Retrieval: Accumulation of extensive user workout logs, nutrition data, and particularly media (photos/videos for progress/form analysis) will rapidly increase storage costs and demand high-performance database reads/writes.",
+                "Personalization Engine Complexity: Continuously training and deploying highly accurate, personalized AI models for diverse fitness needs and progress tracking can become computationally intensive and require sophisticated data pipelines.",
+                "Real-time Tracking & Feedback: If features like real-time exercise form analysis via device camera are implemented, this will be extremely demanding on client-side processing, network bandwidth, and backend AI inference, posing significant scaling challenges."
+              ],
+              "build_vs_buy": "Build the core AI algorithms for personalized recommendations and the unique user experience tailored for college students, as these are primary differentiators. Buy or leverage managed cloud services for all commodity infrastructure: authentication (AWS Cognito), database (AWS RDS), object storage (AWS S3), compute (AWS Lambda/ECS), content delivery (AWS CloudFront), and basic analytics/push notifications (AWS SNS, Firebase Cloud Messaging). This approach minimizes operational overhead and allows the team to focus on the core product."
+            }
+          },
+          "ts": 1782022284.3311217
+        },
+        "356742d58d304bfe": {
+          "agent": "pm",
+          "role": "analysis",
+          "content": {
+            "summary": "An AI fitness app targeting college students aims to provide personalized workout plans. However, it faces significant hurdles in differentiating itself within a highly competitive market, establishing a viable monetization model, and ensuring user retention among a price-sensitive demographic with often inconsistent schedules.",
+            "key_points": [
+              "The market for fitness apps is highly saturated with numerous free and paid options, making differentiation challenging.",
+              "College students are a price-sensitive demographic, making traditional subscription models difficult to implement successfully.",
+              "The 'AI' aspect needs to deliver clear, tangible value beyond what generic workout generators or free resources offer to justify adoption.",
+              "College life often involves unpredictable schedules, academic stress, and social distractions, which can lead to high churn rates for fitness apps.",
+              "Most universities provide gym facilities, often included in tuition, reducing the immediate need for external guidance on equipment access."
+            ],
+            "risks": [
+              "Low user adoption and high churn due to lack of perceived unique value, competition, or inability to fit into busy student schedules.",
+              "Failure to differentiate the AI capabilities from existing, often free, workout apps or online resources, leading to user apathy.",
+              "Inability to establish a sustainable monetization model given the target user's budget constraints and the availability of free alternatives.",
+              "Over-promising on AI capabilities that under-deliver, resulting in a poor user experience and negative word-of-mouth.",
+              "Technical complexity and cost of developing robust AI features that truly adapt and personalize effectively."
+            ],
+            "recommendations": [
+              "Hyper-focus the AI on a specific, acute pain point for college students, such as 'AI-powered adaptive routines for dorm-room workouts' or 'AI-optimized quick gym sessions for campus facilities,' rather than a generic fitness app.",
+              "Pilot the app with a specific university or college department (e.g., student wellness, athletics) to gain initial users, gather feedback, and validate the core value proposition in a controlled environment.",
+              "Implement a freemium model that offers core AI personalization for free, with very clear, high-value premium features (e.g., advanced analytics, specific equipment plans, limited direct coaching) priced affordably.",
+              "Prioritize AI features that genuinely adapt to user progress, missed workouts, and changing schedules, rather than just generating static plans, to demonstrate true intelligence.",
+              "Integrate behavioral science principles into the app's design to foster motivation and adherence, addressing the common challenge of consistency among college students."
+            ],
+            "confidence": 70,
+            "role_output": {
+              "target_user": "College students (undergraduate and graduate) who need flexible, personalized fitness guidance that fits their busy, budget-conscious lifestyle and often limited access to specialized equipment/coaching.",
+              "core_jobs": [
+                "Get personalized workout routines that adapt to my unpredictable schedule and available equipment (dorm room, campus gym).",
+                "Stay motivated and consistent with my fitness goals despite academic stress and social distractions.",
+                "Understand how to perform exercises correctly and progress safely without needing an expensive personal trainer.",
+                "Find a cost-effective fitness solution that doesn't add to my student debt."
+              ],
+              "mvp_scope": [
+                "AI-driven Adaptive Workout Generation: Generate daily/weekly workout plans tailored to user input (goals, time available, equipment access - dorm/campus gym, fitness level). AI dynamically adjusts plans based on reported completion and basic feedback.",
+                "Basic Exercise Library: Clear instructions (text and static images) for bodyweight and common campus gym exercises.",
+                "Workout Logging: Simple interface to log completed sets, reps, weight, and perceived effort.",
+                "Consistency Tracking: Visual representation of workout streaks and overall consistency to drive adherence.",
+                "User Onboarding for Constraints: Initial survey to capture student's schedule flexibility, preferred workout length, equipment access (dorm/gym), and primary fitness goals."
+              ],
+              "cut_for_v1": [
+                "Advanced AI features (e.g., real-time form correction, injury prediction, complex biometric integration).",
+                "Social features (e.g., challenges, leaderboards, workout sharing, community forums).",
+                "Nutrition tracking, meal planning, or calorie counting features.",
+                "Wearable device integration (e.g., Apple Watch, Fitbit).",
+                "Extensive, high-production-value video exercise library (static images/text are sufficient for MVP).",
+                "Premium monetization features beyond a basic value proposition.",
+                "In-app chat or direct coaching functionality.",
+                "Music integration or curated playlists."
+              ]
+            }
+          },
+          "ts": 1782022300.0713983
+        },
+        "c5b3d5c6290f4563": {
+          "agent": "investor",
+          "role": "analysis",
+          "content": {
+            "summary": "The idea of an AI fitness app for college students targets a demographic that is tech-savvy and often health-conscious, but also highly price-sensitive and time-constrained. While AI offers potential for personalization, the concept lacks specific differentiation from a crowded market of existing fitness apps and free university resources. Monetization and sustained engagement will be significant hurdles.",
+            "key_points": [
+              "Targets college students, a large and digitally native demographic, potentially open to new tech solutions.",
+              "The 'AI' component suggests personalization, which could be a differentiator if truly effective and unique.",
+              "Potential for integration with campus life or university wellness programs, though this would require B2B sales.",
+              "Addresses a common student need for fitness guidance amidst academic stress and changing schedules."
+            ],
+            "risks": [
+              "**Market Saturation & Differentiation:** The fitness app market is extremely crowded. 'AI' alone is not a moat. How does this app offer a truly unique value proposition beyond existing apps (e.g., MyFitnessPal, Nike Training Club, Peloton, Strava) or free university gyms/programs?",
+              "**Monetization Challenge:** College students have limited disposable income. A subscription model is a tough sell against free alternatives. Ad-supported models often lead to poor user experience and low revenue. B2B sales to universities are complex and slow.",
+              "**Engagement & Retention:** Student life is highly dynamic with fluctuating schedules and priorities. Sustaining engagement beyond initial novelty is difficult, leading to high churn rates.",
+              "**Customer Acquisition Cost (CAC):** Reaching students effectively and affordably across numerous campuses will be expensive and challenging, competing for attention with countless other apps and campus activities.",
+              "**Data Privacy & Compliance:** Handling personal health data for a student population requires robust privacy measures and compliance with regulations, adding complexity and cost.",
+              "**Scalability of AI Personalization:** True, deep personalization for millions of diverse students is a significant technical challenge; generic AI will not differentiate."
+            ],
+            "recommendations": [
+              "**Define a Niche & Specific Problem:** Instead of a broad 'AI fitness app,' identify a hyper-specific pain point for a subset of college students (e.g., fitness for student-athletes with specific training needs, stress-relief fitness for final exam periods, accessible fitness for students without gym access).",
+              "**Unique & Defensible AI Value:** Clearly articulate *what* the AI does that is genuinely transformative and not just a glorified algorithm. It must solve a problem better than any human coach or existing app. E.g., AI that adapts to academic workload stress, not just physical performance.",
+              "**Validate Monetization Early:** Conduct small-scale pilots with a clear willingness-to-pay test. Explore B2B models with universities for campus-wide licenses or partnerships, as a direct-to-consumer model for this demographic is highly speculative for premium pricing.",
+              "**Focus on Community & Gamification:** Leverage the social aspect of college life. Implement strong community features, challenges, and gamification to drive engagement and retention, potentially fostering viral growth within campuses.",
+              "**Demonstrate Proprietary Technology:** Provide concrete evidence of unique AI capabilities (e.g., patents, research papers, functioning prototypes with measurable superior outcomes) that are not easily replicable."
+            ],
+            "confidence": 30,
+            "role_output": {
+              "funding_readiness": 25,
+              "key_concerns": [
+                "Lack of clear, defensible differentiation in a highly competitive and saturated market.",
+                "Unproven and challenging monetization strategy for a price-sensitive college student demographic.",
+                "High customer acquisition costs and potential for high churn without a compelling, sticky value proposition.",
+                "Technical feasibility and scalability of truly personalized AI that delivers unique value."
+              ],
+              "what_would_make_you_invest": [
+                "A laser-focused, underserved niche within the college student fitness market with a validated, acute pain point.",
+                "Demonstrable, proprietary AI technology that provides a unique, measurable, and repeatable benefit not achievable by competitors or human coaches.",
+                "A proven monetization model (e.g., successful pilot with paying students/universities, B2B contracts) showing clear revenue pathways.",
+                "Evidence of strong retention and low customer acquisition cost from early, focused pilot programs.",
+                "A founding team with deep, relevant expertise in AI, fitness, and successful student-focused product development."
+              ]
+            }
+          },
+          "ts": 1782022311.5056646
+        },
+        "1a356fea554d4293": {
+          "agent": "marketing",
+          "role": "analysis",
+          "content": {
+            "summary": "The 'AI fitness app for college students' targets a large, digitally native demographic with significant wellness needs, but faces intense competition and high price sensitivity. Success hinges on hyper-specific positioning that leverages AI to solve acute student pain points like time constraints, budget limitations, and stress, rather than offering generic fitness solutions.",
+            "key_points": [
+              "Large and accessible target market of college students, often seeking convenience and stress relief.",
+              "AI offers potential for highly personalized and adaptive fitness plans, addressing varied schedules and equipment access.",
+              "High demand for health and wellness solutions in this demographic, often accompanied by budget constraints.",
+              "Significant competition from free online content (YouTube, TikTok), generic fitness apps, and university-provided gym facilities.",
+              "Building a sustainable monetization model will be challenging due to students' price sensitivity and access to free alternatives."
+            ],
+            "risks": [
+              "**High Churn Rate:** College students are prone to app fatigue and may abandon subscriptions quickly due to academic pressures, changing interests, or financial constraints.",
+              "**Monetization Difficulty:** Convincing students to pay for a fitness app when numerous free or low-cost options (including campus gyms) exist will be a major hurdle.",
+              "**Lack of Differentiation:** 'AI fitness app' is not unique enough; the specific *value* AI provides to college students must be crystal clear to stand out.",
+              "**Acquisition Cost:** Reaching the target demographic effectively amidst digital noise and campus-specific marketing challenges can be expensive.",
+              "**Credibility & Trust:** Building trust for an AI-driven health solution, especially without established medical or fitness authority, can be slow."
+            ],
+            "recommendations": [
+              "**Hyper-Niche Positioning:** Instead of 'all college students,' target a specific sub-segment with acute pain points (e.g., freshmen struggling with 'freshman fifteen' and new routines, student-athletes needing supplemental training, or students in demanding majors seeking stress relief).",
+              "**Focus on Unique AI Value Proposition:** Clearly articulate how AI uniquely solves student-specific problems, such as dynamically adjusting workouts based on class schedules, exam periods, dorm room limitations, or stress levels, going beyond simple personalization.",
+              "**Integrate Social & Community Features:** Leverage the social aspect of college life by incorporating peer challenges, study group fitness breaks, or university leaderboards to foster engagement and virality.",
+              "**Strategic Campus Partnerships:** Collaborate with university wellness centers, student life departments, and student organizations (e.g., sports clubs, academic societies) for credibility, distribution, and potential subsidized access.",
+              "**Compelling Freemium Model:** Offer a robust free tier that delivers significant value (e.g., basic AI-driven daily workouts, stress-relief exercises) and clearly differentiate the premium features that address specific, high-value student problems (e.g., exam-period recovery plans, advanced equipment-free strength training)."
+            ],
+            "confidence": 65,
+            "role_output": {
+              "positioning": "Your personalized AI fitness coach that fits seamlessly into your demanding college life, offering quick, effective, and budget-friendly workouts designed to beat stress and the 'freshman fifteen' without needing a gym.",
+              "beachhead_segment": "First-year college students (freshmen) living in dorms, struggling with time management, new routines, and the 'freshman fifteen,' seeking convenient, low-cost fitness solutions without needing a gym membership.",
+              "channels": [
+                "TikTok & Instagram Reels (short, engaging workout snippets, student testimonials)",
+                "University-specific student groups & forums (Reddit, Facebook groups for universities)",
+                "On-campus partnerships with university recreation centers & student wellness programs",
+                "Student organizations (fraternities/sororities, sports clubs, academic societies)",
+                "Orientation events & campus health fairs",
+                "Peer-to-peer referral programs with student incentives"
+              ],
+              "first_campaign": {
+                "name": "Dorm-Fit Freshman Challenge: Beat the Freshman 15 with AI",
+                "goal": "Drive 1-month free trial sign-ups among freshmen at 2-3 target universities.",
+                "strategy": "Partner with university wellness centers or student life departments to host a 'Freshman Fitness Kickstart' event during orientation or early in the semester. Offer a free month of the app to all attendees and promote a 30-day 'Dorm-Fit Challenge' focused on stress reduction and easy, dorm-friendly workouts. Leverage student micro-influencers and testimonials showing quick, effective routines.",
+                "call_to_action": "Download the app & get your first month FREE! Join the #DormFitChallenge and transform your freshman year. Link in bio / Scan QR at [University Event]."
+              }
+            }
+          },
+          "ts": 1782022329.0082996
+        },
+        "0a0fca55476d4668": {
+          "agent": "competitor",
+          "role": "analysis",
+          "content": {
+            "summary": "The proposed AI fitness app for college students targets a highly specific demographic with unique lifestyle constraints and budget limitations. While AI offers a strong potential for personalization, the market is severely saturated with both general fitness apps and free content, making differentiation and viable monetization extremely challenging. The idea risks being perceived as 'just another fitness app' without a compelling, student-centric unique value proposition.",
+            "key_points": [
+              "The target market (college students) is highly price-sensitive and often has limited equipment/space, requiring a deeply tailored and affordable solution.",
+              "The fitness app market is extremely competitive, featuring established brands, numerous free alternatives, and emerging AI-driven solutions.",
+              "Effective AI personalization is crucial for differentiation, but its development can be costly and its impact needs to significantly outweigh simpler, cheaper alternatives.",
+              "Monetization will be a significant hurdle; a well-defined freemium model with premium features that students genuinely value and can afford will be essential.",
+              "Opportunities exist for university partnerships and integration into campus wellness programs, which could provide a unique distribution channel and build trust."
+            ],
+            "risks": [
+              "High user acquisition costs and potential for high churn due to intense competition and lack of perceived unique value among students.",
+              "Difficulty in establishing a sustainable monetization model given the target demographic's budget constraints and prevalence of free alternatives.",
+              "The AI's personalization capabilities may not be robust enough to significantly outperform human coaches or simpler, more affordable fitness tracking methods.",
+              "Privacy concerns around personal health data, especially within a younger demographic, could deter adoption.",
+              "Students may prefer informal, social, or free fitness options (e.g., campus gyms, sports, YouTube) over a structured app, regardless of AI features."
+            ],
+            "recommendations": [
+              "Refine the value proposition to focus on 'AI-driven holistic wellness for college students' addressing academic stress, limited time, and budget, rather than just fitness.",
+              "Develop a robust freemium model where the free tier offers substantial utility (e.g., basic dorm workouts, stress-relief exercises) and premium features are highly targeted to student pain points (e.g., personalized study-break routines, exam-period recovery plans, campus dining nutrition integration).",
+              "Explore strategic partnerships with universities for pilot programs, student discounts, or integration with campus health and wellness initiatives to gain early traction and credibility.",
+              "Prioritize community-building features within the app, allowing students to connect with peers on their campus, participate in inter-university challenges, and foster a sense of shared progress.",
+              "Invest heavily in marketing that highlights the AI's unique ability to adapt to the specific, often chaotic, lifestyle of a college student, emphasizing convenience and mental well-being alongside physical fitness."
+            ],
+            "confidence": 65,
+            "role_output": {
+              "competitors": [
+                "Nike Training Club (free content)",
+                "Adidas Training by Runtastic (freemium)",
+                "MyFitnessPal (nutrition/tracking)",
+                "Strava (social fitness tracking)",
+                "Peloton Digital (subscription-based classes)",
+                "Future (AI-coached, high-end)",
+                "Aaptiv (audio-guided workouts)",
+                "YouTube fitness influencers (free content)",
+                "University recreation centers/gyms (on-campus resources)",
+                "Apple Fitness+, Google Fit, Samsung Health (device-native solutions)"
+              ],
+              "swot": {
+                "strengths": "Targeted demographic allows for highly specific content (e.g., dorm room workouts, stress relief). AI personalization offers dynamic and adaptive workout plans. Potential for strong community building within university networks. Appeals to a tech-savvy audience. Addresses a need for affordable fitness solutions for students.",
+                "weaknesses": "High price sensitivity of college students makes monetization difficult. Intense competition from free and established apps. Potential for high churn if engagement isn't sustained. Limited equipment/space for many students. Privacy concerns regarding health data. Risk of 'app fatigue' among students.",
+                "opportunities": "Partnerships with universities for wellness programs or student discounts. Integration with academic schedules for stress management and active breaks. Gamification to enhance engagement and virality. Expansion into holistic well-being (nutrition, mental health). Data insights for continuous improvement and personalization.",
+                "threats": "Existing free and low-cost alternatives are deeply entrenched. Low barrier to entry for new fitness apps. Difficulty in acquiring and retaining users in a crowded market. Subscription fatigue. Negative publicity if AI recommendations are flawed or lead to injury. Dependence on smartphone access and internet connectivity."
+              },
+              "market_gap": "While numerous fitness apps exist, there is a gap for an AI-driven, hyper-personalized, and genuinely affordable solution specifically designed for the unique constraints and lifestyle of college students. This includes adapting to limited space (dorm rooms), variable schedules (exams, classes), budget limitations, and integrating mental well-being and stress management relevant to academic life. Most general apps do not offer this level of targeted, AI-powered adaptation to the student experience.",
+              "differentiation": "Differentiation must stem from AI's ability to create highly adaptive workout plans that factor in a college student's specific environment (e.g., no gym access, small dorm room), academic schedule (e.g., exam week stress relief, quick study breaks), and budget. Unique features could include AI-driven stress level monitoring and corresponding exercise recommendations, personalized meal plans optimized for campus dining options, and university-specific social challenges or leaderboards. The core differentiator would be 'AI as a personalized wellness companion for the unique chaos of college life,' not just a fitness tracker."
+            }
+          },
+          "ts": 1782022344.4117713
+        },
+        "b8358b8702cc4339": {
+          "agent": "legal",
+          "role": "analysis",
+          "content": {
+            "summary": "The primary legal and compliance challenges for an AI fitness app targeting college students will center on robust data privacy practices, particularly concerning health-related information, and managing liability associated with AI-driven fitness recommendations. Clear disclaimers and comprehensive terms of service will be crucial.",
+            "key_points": [
+              "Strict adherence to data privacy regulations (e.g., CCPA, GDPR, state-specific laws) for sensitive health and personal data of students.",
+              "Mitigating liability for AI-generated fitness advice through clear, prominent disclaimers stating that the app is not a medical or professional health service.",
+              "Establishing strong intellectual property protection for the AI algorithms, software, and brand assets.",
+              "Ensuring compliance with accessibility standards (ADA) for digital products.",
+              "Careful consideration of potential bias in AI algorithms and its implications for diverse student populations."
+            ],
+            "risks": [
+              "**Data Breach & Privacy Violations**: Handling sensitive health and personal data makes the app a prime target for breaches, leading to significant financial penalties under various privacy laws and reputational damage.",
+              "**Liability for Harmful Advice**: If AI recommendations lead to injury or adverse health outcomes, the company could face lawsuits despite disclaimers, especially if the advice is perceived as negligent or misleading.",
+              "**Intellectual Property Infringement**: Risk of inadvertently using third-party IP in AI models, content, or software without proper licensing, leading to costly legal disputes.",
+              "**Regulatory Scrutiny**: Potential for investigations from consumer protection agencies (e.g., FTC) regarding advertising claims, data handling practices, or AI ethics.",
+              "**University-Specific Regulations**: If integrating with university systems or marketing directly on campuses, there may be additional institutional policies or agreements to navigate, including FERPA considerations if student academic records or identifiers are involved (though less likely for a general fitness app)."
+            ],
+            "recommendations": [
+              "Engage legal counsel early to draft comprehensive Terms of Service and a Privacy Policy tailored to health-related data and AI-driven services, including clear liability waivers and disclaimers.",
+              "Implement robust data security measures and conduct regular privacy impact assessments (PIAs) to identify and mitigate risks associated with student health data.",
+              "Develop a clear IP strategy, including trademark registration for the app name/logo and copyright protection for software, while ensuring all contractor/employee agreements include IP assignment clauses.",
+              "Consult with healthcare legal experts to ensure disclaimers regarding medical advice are legally sound and prominently displayed within the app.",
+              "Conduct thorough testing of AI algorithms for bias and fairness across different demographics to minimize risks of discriminatory or ineffective recommendations."
+            ],
+            "confidence": 95,
+            "role_output": {
+              "entity_recommendation": "A Delaware C-Corporation is recommended for its scalability and attractiveness to venture capital investors, which will likely be sought given the AI and app development nature. This structure also provides limited liability protection for founders.",
+              "compliance_checklist": [
+                "Draft and implement comprehensive Terms of Service and Privacy Policy.",
+                "Ensure compliance with CCPA/CPRA, GDPR (if applicable), and other relevant state-specific data privacy laws (e.g., VCDPA, CPA).",
+                "Implement strong data security protocols and conduct regular security audits.",
+                "Develop clear, prominent disclaimers regarding the non-medical nature of fitness advice.",
+                "Register trademarks for brand name and logo.",
+                "Secure copyright for app code, UI/UX, and original content.",
+                "Establish internal policies for AI ethics, bias mitigation, and data governance.",
+                "Ensure ADA compliance for app accessibility.",
+                "Comply with FTC guidelines for advertising and consumer protection.",
+                "Review potential FERPA implications if any integration with university student records is considered (currently unlikely but important to monitor)."
+              ],
+              "data_privacy_notes": "The app will collect sensitive health-related data (e.g., activity levels, dietary information, potentially biometric data) from college students. This necessitates explicit, informed consent mechanisms that are easily understandable. Data minimization principles should be applied, collecting only what is necessary for core functionality. Strong encryption for data in transit and at rest, regular vulnerability assessments, and incident response plans are critical. Compliance with specific state privacy laws (e.g., California's CCPA/CPRA) and potentially GDPR (for international students) will be mandatory. Avoid any integration with university systems that could inadvertently fall under FERPA unless specifically designed and approved for that purpose.",
+              "ip_notes": "Key intellectual property will include the AI algorithms and models (potentially protectable as trade secrets), the app's software code (copyright), the unique user interface and experience (copyright), and the brand name and logo (trademark). Founders should ensure all contributions from employees and contractors are assigned to the company through robust IP assignment agreements. A strategy for protecting trade secrets, such as non-disclosure agreements and restricted access, is essential for the proprietary AI technology. Conduct thorough searches to ensure the chosen brand name and logo do not infringe on existing trademarks."
+            }
+          },
+          "ts": 1782022354.8045094
+        },
+        "71cb721e16734546": {
+          "agent": "investor",
+          "role": "challenge",
+          "content": {
+            "toAgent": "ceo",
+            "point": "The CEO identifies 'AI-driven personalization' as the core differentiation, but the Investor critically questions if 'AI' alone is a sufficient moat against a highly saturated market, demanding a truly unique value proposition beyond the technology itself to justify investment."
+          },
+          "ts": 1782022367.3294196
+        },
+        "497648d2e35a4873": {
+          "agent": "cto",
+          "role": "challenge",
+          "content": {
+            "toAgent": "pm",
+            "point": "While the PM warns against 'over-promising on AI capabilities that under-deliver' leading to poor user experience, the CTO emphasizes a more fundamental risk: 'ensuring AI accuracy and reliability for health-related recommendations is paramount; errors could lead to user distrust, injury, or legal liabilities,' highlighting the critical technical and legal implications beyond just user perception."
+          },
+          "ts": 1782022367.3307605
+        },
+        "a4723e5e7e7a41a8": {
+          "agent": "marketing",
+          "role": "challenge",
+          "content": {
+            "toAgent": "ceo",
+            "point": "The CEO states that 'monetization and sustained engagement... are critical hurdles' due to price sensitivity and transient student life. Marketing, however, suggests that 'success hinges on hyper-specific positioning that leverages AI to solve acute student pain points' (like time, budget, stress), implying a strategic path to overcome these hurdles rather than just identifying them."
+          },
+          "ts": 1782022367.3317852
+        },
+        "3f1872934ac14ae9": {
+          "agent": "consensus",
+          "role": "consensus",
+          "content": {
+            "agreements": [
+              "The fitness app market is highly saturated, presenting intense competition.",
+              "College students are a price-sensitive demographic, making monetization and subscription models challenging.",
+              "Sustaining user engagement and preventing churn among college students with fluctuating schedules is a significant hurdle.",
+              "The 'AI' aspect of the app must deliver truly differentiated, tangible, and superior value to succeed.",
+              "Robust data privacy and security measures are paramount, especially when handling health data for a younger demographic."
+            ],
+            "tensions": [
+              "Whether 'AI' alone is a sufficient differentiator, or if a more specific, unique value proposition is required beyond the technology itself.",
+              "The feasibility of achieving sustainable monetization given the target demographic's price sensitivity versus the potential for strategic positioning to overcome this.",
+              "The balance between promising innovative AI features and ensuring their accurate, reliable, and legally compliant delivery to avoid both poor user experience and critical liabilities."
+            ],
+            "final_recommendation": "The concept requires significant refinement. Focus must shift from a generic 'AI fitness app' to identifying and solving specific, acute pain points of college students that cannot be addressed by existing free or low-cost alternatives. The AI's role must be clearly defined to deliver this unique value reliably and accurately. A creative, non-traditional monetization strategy (e.g., B2B partnerships with universities, freemium models with highly valued premium features) needs to be thoroughly explored. Robust data privacy and security must be foundational, not an afterthought.",
+            "refined_verdict": "Proceed with caution. While the target demographic is large and digitally native, the current differentiation strategy is insufficient. A pivot towards hyper-specific problem-solving with AI, coupled with innovative monetization and an ironclad privacy framework, is essential before significant investment. Further market research into specific student needs and willingness to pay for truly differentiated value is critical."
+          },
+          "ts": 1782022367.3328204
+        }
+      }
+    }
+  },
+  "userWorkspaces": {
+    "mock-user-123": {
+      "884ae57b0f264b13": true,
+      "b3f53353cf444d22": true
+    },
+    "ysA0eB9bwXgpM42V6Bsk2lewkFJ2": {
+      "3beb0b8256d74f10": true
+    }
+  },
+  "sharktankSessions": {
+    "4a0a0e1de2c846f9": {
+      "ownerUid": "mock-user-123",
+      "workspaceId": "b3f53353cf444d22",
+      "status": "active",
+      "createdAt": 1782022522.6504471,
+      "investors": {
+        "yc": {
+          "id": "yc",
+          "persona": "Y Combinator Partner",
+          "riskProfile": "high-conviction, fast",
+          "style": "first-principles, blunt"
+        },
+        "sequoia": {
+          "id": "sequoia",
+          "persona": "Sequoia Partner",
+          "riskProfile": "market-size obsessed",
+          "style": "probes TAM and moat"
+        },
+        "a16z": {
+          "id": "a16z",
+          "persona": "a16z Partner",
+          "riskProfile": "founder-and-tech driven",
+          "style": "technical defensibility"
+        },
+        "angel": {
+          "id": "angel",
+          "persona": "Angel Investor",
+          "riskProfile": "early, relationship-led",
+          "style": "why you, why now"
+        },
+        "cvc": {
+          "id": "cvc",
+          "persona": "Corporate VC",
+          "riskProfile": "strategic fit",
+          "style": "distribution and integration"
+        }
+      },
+      "rounds": {
+        "d20018a58bf444dc": {
+          "investorId": "yc",
+          "persona": "Y Combinator Partner",
+          "question": "Why will college students pay for *another* fitness app when free options and university gym access already exist?",
+          "createdAt": 1782022531.4256015
+        },
+        "e3fdef999cc640b2": {
+          "investorId": "sequoia",
+          "persona": "Sequoia Partner",
+          "question": "Given the transient nature of college students and the crowded fitness market, what's your defensible strategy to capture a significant TAM beyond this initial niche and prevent commoditization?",
+          "createdAt": 1782022531.427188
+        },
+        "da243904285548cc": {
+          "investorId": "a16z",
+          "persona": "a16z Partner",
+          "question": "What specific, proprietary AI model or data flywheel are you building that offers true technical defensibility, beyond basic personalization, and isn't easily replicated by larger tech companies?",
+          "createdAt": 1782022531.4288754
+        },
+        "a99f27ec67e7479b": {
+          "investorId": "angel",
+          "persona": "Angel Investor",
+          "question": "Beyond the technology, what personal connection or unique insight do you and your team have into the specific struggles of college students with fitness that makes you the *only* team to win this market?",
+          "createdAt": 1782022531.4300663
+        },
+        "f40babdb5d9446c7": {
+          "investorId": "cvc",
+          "persona": "Corporate VC",
+          "question": "What is your scalable distribution strategy to integrate with university wellness programs, health providers, or existing student platforms, rather than relying on direct-to-consumer acquisition in a noisy market?",
+          "createdAt": 1782022531.431322
+        }
+      }
+    }
+  }
+}
